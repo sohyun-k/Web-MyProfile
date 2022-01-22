@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: bisque;
+    height: 70px;
+}
+
+.header_class {
+    width: 980px;
+    /* 페이지가 980보다 작을 경우 메뉴바 바뀌어야함 */
+    margin: auto;
+}
+
+.head_logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+}
+
+.menu > nav > ul > li {
+    float: left;
+    padding: 8px 10px;
+    font-weight: bold;
+    list-style: none;
+}
+
