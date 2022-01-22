@@ -1,37 +1,49 @@
-body {
+html, body{
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
     font-family: 'Yeon Sung', cursive;
 }
 
-#header {
+header {
     background-color: bisque;
-    height: 70px;
+    height: 80px;
+    margin: 0 auto;
 }
 
 .header_container {
-    width: 980px;
+    width: 100%;
     /* 페이지가 980보다 작을 경우 메뉴바 바뀌어야함 */
-    margin: auto;
 }
 
-.head_logo{
+.header_container > h2 {
+    width: 50%;
     float: left;
+    padding-left: 50px;
 }
 
-.menu{
+.header_container > h2 > a {
+    display: block;
+    font-size: 30px;
+    padding: 0px 30px 0px 30px;
+}
+
+.header_container > nav{
     float: right;
+    width: 40%;
+    padding-right: 50px;
 }
 
-.menu > nav > ul > li {
+.header_container > nav > ul > li {
+    width: 25%;
     float: left;
-    padding: 8px 10px;
     font-weight: bold;
     list-style: none;
+    text-align: center;
+    line-height: 60px;
 }
 
-.menu > nav > ul > li > a{
+.header_container > nav > ul > li > a{
     text-decoration-line: none;
     color: black;
 }
@@ -96,6 +108,27 @@ body {
 }
 
 .contact_size {
-    height: 300px;
+    height: 500px;
 }
 
+@media (min-width: 0px) and (max-width: 980px) {
+    header {
+        height: 160px;
+    }
+    .header_container {
+        width: 100%;
+    }
+    .header_container > h2 {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .header_container > nav {
+        width: 100%;
+        padding-right: 0;
+    }
+    .header_container > nav > ul {
+        padding: 0;
+        margin: 0;
+    }
+}
