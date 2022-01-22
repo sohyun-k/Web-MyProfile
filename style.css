@@ -5,6 +5,10 @@ html, body{
     font-family: 'Yeon Sung', cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: bisque;
     height: 80px;
