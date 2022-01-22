@@ -8,7 +8,7 @@ body {
     height: 70px;
 }
 
-.header_class {
+.header_container {
     width: 980px;
     /* 페이지가 980보다 작을 경우 메뉴바 바뀌어야함 */
     margin: auto;
@@ -29,3 +29,45 @@ body {
     list-style: none;
 }
 
+#home {
+    background-color: cornsilk;
+    height: 500px;
+}
+
+.home_container{
+    height: 100%;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.home_container > h1 {
+    margin: 0;
+}
+
+.home_container > img {
+    height: 300px;
+    width: auto;
+    border-radius: 30%;
+    margin: 15px;
+}
+
+.home_container > p {
+    margin: 0;
+}
+
+#profile{
+    height: 700px;
+}
+
+.profile_container{
+    height: 100%;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+.profile_contents > img {
+    height: 300px;
+    width: auto;
+    border-radius: 30%;
+    margin: 15px;
+}
