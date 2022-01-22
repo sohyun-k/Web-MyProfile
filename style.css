@@ -31,9 +31,18 @@ body {
     list-style: none;
 }
 
+.menu > nav > ul > li > a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.contact_contents > p > a{
+    color: black;
+}
+
 #home {
     background-color: cornsilk;
-    height: 500px;
+    height: 600px;
 }
 
 .home_container{
@@ -50,7 +59,7 @@ body {
     height: 300px;
     width: auto;
     border-radius: 30%;
-    margin: 15px;
+    margin: 40px;
 }
 
 .home_container > p {
@@ -58,7 +67,7 @@ body {
 }
 
 .content_size{
-    height: 700px;
+    height: 800px;
 }
 
 .container{
@@ -89,3 +98,4 @@ body {
 .contact_size {
     height: 300px;
 }
+
