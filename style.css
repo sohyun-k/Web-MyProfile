@@ -55,11 +55,11 @@ body {
     margin: 0;
 }
 
-#profile{
+.content_size{
     height: 700px;
 }
 
-.profile_container{
+.container{
     height: 100%;
     text-align: center;
     padding: 60px 0 0 0;
@@ -70,4 +70,16 @@ body {
     width: auto;
     border-radius: 30%;
     margin: 15px;
+}
+
+.interest_contents > img {
+    height: 300px;
+    width: auto;
+    margin: 15px;
+}
+
+.elice_ai_contents > img {
+    width: 500px;
+    height: auto;
+    margin: 50px;
 }
