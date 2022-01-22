@@ -136,3 +136,9 @@ header {
         margin: 0;
     }
 }
+
+.back-to-top-ptr {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
